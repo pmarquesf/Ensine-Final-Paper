@@ -1,0 +1,689 @@
+body {
+    background: white;
+}
+
+p {
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 1em;
+    color: #999;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+
+/* SIDEBAR */
+
+#sidebar {
+    background: #011A3D;
+    color: #fff;
+    transition: all 0.3s;
+    position: fixed;
+}
+
+#sidebar .sidebar-header img {
+    padding: 0px;
+    background: #261383;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    margin-left: 0px;
+}
+
+#sidebar ul.components {
+    position: relative;
+
+}
+
+#sidebar ul p {
+    color: #D4D4D4;
+}
+
+#sidebar li{
+    line-height: 50px;
+}
+
+#sidebar ul li a {  
+    left: 0; 
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    color: #BBBBBB;
+    font-weight: bold;
+}
+
+#sidebar ul li a:hover {
+    color: #A5CBFF;
+    list-style: none;
+    text-decoration: none;
+    border-left: 5px solid;
+}
+
+#sidebar li.active {
+    background-color: #1E4B8A;
+}
+
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #011A3D;
+  width: 100%;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #D4D4D4;
+  padding: 0px 0px 0px 50px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.space-sidebar{
+    height: 300px;
+    position: relative;
+}
+
+.redes{
+    left: 50px;
+    bottom: 4%;
+    position: absolute;
+}
+
+.redes button{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    border-radius: 100px 100px 100px 100px;
+    border: 0;
+    background-color: #5C7FE0;
+}
+
+.redes button:hover{
+    background-color: #B0C4FB;
+}
+
+.redes .instagram{
+  z-index: 2;
+}
+
+.redes .facebook{
+  z-index: 2;
+}
+
+.redes .twitter{
+  z-index: 2;
+}
+
+
+/* ICONES */
+
+.icons{
+  width: 15px;
+  height: 15px;
+}
+
+.icons_redes{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  padding: 0px;
+  margin: 0;
+}
+
+/* BORDA DIVISORIA SIDEBAR */
+
+.divisao{
+    border-bottom: 0.00200em solid;
+    width: 86%;
+    color: #596473;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}   
+
+/* TITULO */
+
+.titulo{
+    font-size: 30px;
+    color: #1E4B8A;
+    font-weight: bold;
+    left: 270px;
+    position: relative;
+    background-color: white !important;
+    top: 16px;
+    border-bottom: 1px solid;
+    border-color: #1E4B8A;
+    width: 82%;
+    line-height: 60px;
+}
+
+.subtitulo{
+    font-size: 20px;
+    color: #1E4B8A;
+    font-weight: bold;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+/* PAGINA CONTATO */
+
+.boxcontato{
+    width: 1000px;
+    height: 80%;
+    position: relative;
+    left: 500px;
+    top: 60px;
+    border: 1px solid;
+    padding: 20px 60px 55px 60px;
+    margin-bottom: 40px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.boxcontato p{
+    font-size: 20px;
+    line-height: 60px;
+    border-bottom: 1px solid;
+}
+
+.boxcontato .btn{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #0D015C;
+    border: 0;
+}
+
+.boxcontato .btn:hover{
+    background-color: #7D71C8;
+}
+
+/* ADS */
+
+.ad{
+    border-style: solid;
+    width: 220px;
+    height: 80%;
+    position: fixed;
+    left: 1610px;
+    top: 130px;
+}
+
+/* Botão ASSINAR */
+
+.assine{
+    background-color: #025FDF;
+    color: white;
+    padding: 9px 30px 9px 30px;
+    border-radius: 14px 14px 14px 14px;
+    
+}
+
+.assine:hover{
+    background-color: lightblue;
+    color: black;
+    text-decoration: none;
+}
+
+.boxassine{
+    width:10em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+/* FUNÇÔES ADM */
+
+.boxacessoadm{
+    width:13em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    line-height: 42px;
+    
+}
+
+.acessoadm{
+    color: white !important;
+    padding: 9px 35px 9px 35px;
+    border-radius: 8px 8px 8px 8px; 
+    background-color: #443B80;  
+    width: 100%;
+}
+
+.sair,
+.logout{
+    border-radius: 4px 4px 4px 4px;
+    padding: 6px 5px 6px 5px;
+    background-color: #5E52C7;
+    color: white !important;
+    border: 0;
+    cursor: pointer;
+}
+
+.sair{
+    width: 5.8em;
+
+}
+
+.logout{
+    width: 5.8em;
+
+}
+
+/* BOX LEADS */
+
+.btnbuscar{
+    position: absolute;
+    right: 3.5%;
+    top: 20px;
+}
+
+.leads{
+    top: 100px;
+    position: fixed;
+    left: 470px;
+}
+
+/* PAGINA LOGIN */
+
+.container-login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-login {
+    width: 450px;
+    height: 385px;
+    background: #fff;
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.box-login p{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    background-color: #0D015C;
+    padding: 20px 20px 20px 20px;
+    margin-top: 15px;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #44AEB3;
+}
+
+.box-login .btn{
+    width: 100%;
+    background-color: #0D015C;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+.box-login .btn:hover{
+    background-color: #7D71C8;
+}
+
+/* BOTOES ADM */
+
+.box-add-del-adm{
+    width:13em;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 42px;   
+}
+
+.add{
+    width: 12em;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    background-color: #5E52C7;
+    border-color: #5E52C7;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.del{
+    width: 12em;
+    cursor: pointer;
+    background-color: #5E52C7;
+    border-color: #5E52C7;
+    border-radius: 4px 4px 4px 4px;
+}
+
+/* ADICIONAR ADM */
+
+.box-add-adm{
+    width: 1000px;
+    height: 80%;
+    position: fixed;
+    top: 130px;
+    border: 1px solid;
+    padding: 40px 60px 60px 60px;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 470px;
+}
+
+.box-add-adm p{
+    font-size: 20px;
+    line-height: 60px;
+    border-bottom: 1px solid;
+}
+
+
+.btn-envio{
+    width: 100%;
+    background-color: #44AEB3;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-envio:hover{
+    background-color: #BFBFBF;
+    color: black;
+}
+
+.form-adm{
+    line-height: 60px;
+}
+
+/* DELETAR ADM */
+
+.del-adm{
+    margin-left: 650px;
+    margin-top: 230px;
+}
+
+/* VER MENSAGEM */
+
+.ver-msg{
+    border: 1px solid #CDCECE;
+    padding: 30px 20px 30px 20px;
+    border-radius: 8px 8px 8px 8px;
+    width: 100%;
+    left: 200px;
+    top: 150px;
+    position: absolute;
+    min-height: 300px;
+    color: #5D5C5C;
+    
+}
+
+.ver-msg p{
+    border-bottom: 1px solid #CDCECE;
+    font-size: 20px;
+    padding: 0px 20px 20px 0px;
+    width: 100%;
+}
+
+.divisao-msg{
+    border-bottom: 1px solid #CDCECE;
+    padding: 0px 30px 15px 30px;
+}
+
+.btn-msg{
+    position: relative;
+}
+
+/* QUESTIONARIO */
+
+.questionario{
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    color: #333;
+    background-color: #fff;
+    top: 0px;
+    position: relative;
+    left: 250px;
+    width: 1592px;
+    margin-top: 100px;
+}
+
+.questionario .current{
+    font-weight: 300;
+    margin-bottom: 20px;
+    padding: 5px 10px 5px 20px;
+    font-size: 15px;
+    background-color: #0D015C;
+    color: #fff;
+}
+
+.question{
+    font-size: 17px;
+    margin-bottom: 10px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.answers {
+    text-align: left;
+    display: inline-block;
+    margin-left: 80px;
+    line-height: 35px;
+}
+
+.answers label{
+    display: block;
+    font-size: 16px;
+}
+
+.questionario button{
+    font-size: 15px;
+    background-color: #0D015C;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 0px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    z-index: 1;
+}
+
+.questionario button:hover{
+    background-color: #7D71C8;
+}
+
+.btn-quest{
+    padding: 20px 0px 20px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    top: 600px;
+    position: relative;
+}
+
+.btn-quest-anterior{ 
+    text-align: left;
+    position: absolute;
+    z-index: 2;
+    border: 0;
+}
+
+.btn-quest-proximo{
+    text-align: right;
+    position: relative;
+    border: 0;
+}
+
+.btn-quest-finalizar{
+    text-align: right;
+    position: relative;
+    border: 0;
+}
+
+.slide{
+    position: absolute;
+    left: 0px;
+    top: 0px;   
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.active-slide{
+    opacity: 1;
+    z-index: 2;
+}
+
+.quiz-container{
+    position: relative;
+    height: 680px;
+    margin-top: 40px;
+    margin-left: 210px;
+    margin-right: 300px;
+}
+
+/* PRE QUESTIONARIO */
+
+.container-quest{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.box-quest{
+    width: 500px;
+    height: 500px;
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    padding: 50px;
+}
+
+.box-quest p{
+    font-size: 15px;
+    line-height: 40px;
+    text-align: justify;
+    color: black;
+}
+
+.box-quest a{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #0D015C;
+}
+
+.box-quest a:hover{
+    background-color: #7D71C8;
+}
+
+.titulo-quest{
+    font-size: 24px;
+    line-height: 60px;
+    border-bottom: 1px solid;
+    font-weight: bold;
+}
+
+/* CONTEUDO GERAL */
+
+.box-conteudo{
+    top: 55px;
+    left: 470px;
+    width: 60%;
+    position: relative;
+    padding: 0 40px 0 40px;  
+    margin-bottom: 40px;
+}
+
+.texto-conteudo{
+    letter-spacing: 0.8px;
+    position: relative;
+}
+
+.imagens-conteudo{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    right: 2%;
+    top: 0px;
+}
+
+/* FOOTER */
+
+.footer{
+    border: 0;
+    background-color: #B5C2E5;
+    left: 251px;
+    bottom: 0%;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.footer-text{
+    text-align: center;
+    top: 25px;
+    position: relative;
+}
+
+/* RESULTADO */
+
+.resultado-quest{
+    width: 59vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    position: absolute;
+}
+
+.total-questoes{
+    color: #0D015C;
+    font-weight: bold;
+
+}
+/* footer */
+/* footer */
+/* footer */
+/* footer */
+
