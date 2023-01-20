@@ -8,7 +8,7 @@ RESUMO
 
 Palavras-chave: Educação; Sistema Web ENSINE; Revolução Francesa; Tecnologia;
 
-Link de apresentação do artigo: https://youtu.be/gDzsMs8m2aE
+Link de apresentação do artigo: https://youtu.be/gDzsMs8m2aE <br />
 Link de apresentação do sistema: https://youtu.be/dhgsl5PzF1A
 
 Projeto desenvolvido ao final de 2020 para conclusão do Curso Ténico em Informática no IFSULDEMINAS - Campus Muzambinho
